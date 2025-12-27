@@ -1233,6 +1233,24 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
+@media (max-width: 449px) {
+  .service-icon-box,
+  .icon-box {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+
+  .service-item {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
 @media (min-width: 450px) {
 
   /**
