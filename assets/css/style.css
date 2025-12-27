@@ -1242,6 +1242,26 @@ textarea.form-input::-webkit-resizer { display: none; }
   .clients-item { min-width: calc(33.33% - 10px); }
 
 
+@media (min-width: 450px) {
+  .service-icon-box,
+  .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 450px) {
+  .service-item-title {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+
+
+
+	
 
   /**
    * #PORTFOLIO, BLOG 
