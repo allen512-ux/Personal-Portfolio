@@ -1234,8 +1234,6 @@ textarea.form-input::-webkit-resizer { display: none; }
  */
 
 @media (max-width: 449px) {
-
-  /* center icon */
   .service-icon-box,
   .icon-box {
     margin-left: auto !important;
@@ -1243,20 +1241,17 @@ textarea.form-input::-webkit-resizer { display: none; }
     display: block !important;
   }
 
-  /* center title */
-  .service-item-title {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-  }
-
-  /* keep text centered */
   .service-item {
     text-align: center;
   }
 }
 
+@media (max-width: 449px) {
+  .service-item-title {
+    justify-content: center;
+    text-align: center;
+  }
+}
 
 
 
