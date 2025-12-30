@@ -1244,6 +1244,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   .service-item {
     text-align: center;
   }
+	 .avatar-box{
+    border-radius: 20px;
+	 }
 }
 
 @media (max-width: 449px) {
